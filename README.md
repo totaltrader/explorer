@@ -5,7 +5,7 @@ An open source block explorer written in node.js.
 
 ### See it in action
 
-*  [Rilcoin](https://explorer.rilcoin.org)
+*  [Rilcoin](http://explorer.rilcoin.org)
 
 *note: If you would like your instance mentioned here contact me*
 
