@@ -5,8 +5,7 @@ An open source block explorer written in node.js.
 
 ### See it in action
 
-*  [Mincoin](https://explore-the-minco.in)
-*  [Mincoin Deepweb](http://mincoinus7355vly.onion:8080)
+*  [Rilcoin](https://explorer.rilcoin.org)
 
 *note: If you would like your instance mentioned here contact me*
 
@@ -36,7 +35,7 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/2g4y1/explorer explorer
+    git clone https://github.com/totaltrader/explorer explorer
 
 ### Install node modules
 
@@ -93,6 +92,8 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
     */1 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js index update > /dev/null 2>&1
     */2 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js market > /dev/null 2>&1
     */5 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/peers.js > /dev/null 2>&1
+    
+ *Make sure to change "/path/to/" pointing the right value, otherwise you crontab will not run.*
 
 ### Wallet
 
@@ -102,8 +103,10 @@ Iquidus Explorer is intended to be generic so it can be used with any wallet fol
 
 ### Donate
 
-    BTC: 168hdKA3fkccPtkxnX8hBrsxNubvk4udJi
-    JBS: JZp9893FMmrm1681bDuJBU7c6w11kyEY7D
+    BTC:  3P5SmF98CwvZ2qMDEf376WYx8WfnzYRCYP
+    LTC:  MDaW2TaWPPYyiiwFTUqamc2p14VwyfitgP
+    DOGE: DT6QckaW8YiG2FVYv9N4RMikeStwGpk31q
+    BCN:  29YZVVhW4vdQUQkrngavnCVTYjx2fY3cE31PnU1ETkiBYDoPeGhSvDK43z54VwGg1YhsTGKbiwXa4GpBZHdR98MA2DYsuqz
 
 ### Known Issues
 
